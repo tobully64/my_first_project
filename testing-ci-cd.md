@@ -2,13 +2,12 @@ Testing and CI/CD
 
 1. Test Cases
 
-| Test ID | Test Description | Expected Result |
-|---|---|---|
-| TC01 | Send GET request to `/` | Return status 200 |
-| TC02 | Get all tasks from `/api/tasks` | Return status 200 and list of tasks |
-| TC03 | Create a task with a valid title | Return status 201 and create the task |
-| TC04 | Create a task without a title | Return status 400 |
-| TC05 | Get all tasks after creating a new task | Return status 200 and include the new task |
+Test ID| Test Description| Expected Result
+TC01| Send GET request to "/"| Return status 200
+TC02| Get all tasks from "/api/tasks"| Return status 200 and list of tasks
+TC03| Create a task with a valid title| Return status 201 and create the task
+TC04| Create a task without a title| Return status 400
+TC05| Get all tasks after creating a new task| Return status 200 and include the new task
 
 2. CI/CD Pipeline
 
