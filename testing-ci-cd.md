@@ -1,5 +1,3 @@
-
-# Testing and CI/CD
 1. Test Cases
 
 Test ID| Test Description| Expected Result
@@ -20,11 +18,7 @@ flowchart TD
     F --> G[Deploy Application]
     E -->|No| H[Pipeline Failed]
     H --> I[Fix Errors]
-    I --> A
-
-این نمودار مسیر کار پروژه رو نشون می‌ده: نوشتن کد، ارسال به گیت‌هاب، تست، ساخت Docker Image و در نهایت Deploy.
-
-**فعلاً فقط همین بخش رو اضافه کن و بگو «زدم».** بعد می‌ریم سراغ دو بخش آخر.
+    I -->A
 3. Test Failure Stage
 
 Test failure occurs during the Test stage.
